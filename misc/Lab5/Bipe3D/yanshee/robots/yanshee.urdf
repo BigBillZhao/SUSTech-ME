@@ -629,7 +629,7 @@
   </gazebo>
   <joint
     name="left_leg1_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="-0.0091403 0.028469 -0.066034"
       rpy="-1.5708 1.5708 1.5708" />
@@ -821,7 +821,7 @@
   </gazebo>
   <joint
     name="left_leg4_joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="0.059245 1.5251E-05 0"
       rpy="1.5708 0 0" />
@@ -996,7 +996,7 @@
   </link>
   <joint
     name="right_leg1_joint"
-    type="revolute">
+    type="fixed">
     <origin
       xyz="-0.0091403 -0.028469 -0.066034"
       rpy="-1.5708 1.5708 -1.5708" />
@@ -1170,7 +1170,7 @@
   </link>
   <joint
     name="right_leg4_joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="0.059245 -1.5243E-05 -1.0003E-05"
       rpy="0 0 0" />
